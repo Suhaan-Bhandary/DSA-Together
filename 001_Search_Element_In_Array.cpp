@@ -14,20 +14,21 @@ using namespace std;
 #define endl "\n"
 #define PIE 3.141592653
 
-class Solution{
+class Solution {
 public:
     int search(int arr[], int N, int X)
     {
         // Looping through the array
         // if a match is found return the index
-        for(int i = 0; i < N; i++){
-            if(arr[i] == X) return i;
+        for (int i = 0; i < N; i++) {
+            if (arr[i] == X) return i;
         }
-        return -1;        
+
+        return -1;
     }
 };
 
 int main() {
 
-	return 0;
+    return 0;
 };
